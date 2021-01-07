@@ -17,5 +17,7 @@ You can check this paper for details.
 The authors aim to improve question answering (QA) by decomposing hard question into simpler sub-questions that existing QA systems are capable of answering.
 Specifically, they propose an algorithm for One-to-N Unsupervised Sequence transduction (ONUS) that learns to map one hard, multi-hop question to many simpler, single-hop sub-question. They answer sub-questions with an off-the-shelf QA model and give the resulting answers to a recomposition model that combines them into a final answer.
 
+![decomposition](https://user-images.githubusercontent.com/55779293/103869043-1ee9de00-510d-11eb-889f-5abe5f33418e.png)
+
 You can check this paper for details. 
 <https://arxiv.org/pdf/2002.09758.pdf>
