@@ -11,3 +11,11 @@ You can check this paper for details.
 
 <https://arxiv.org/pdf/2012.15045.pdf>
 
+
+## Unsupervised Question Decomposition for Question Answering
+
+The authors aim to improve question answering (QA) by decomposing hard question into simpler sub-questions that existing QA systems are capable of answering.
+Specifically, they propose an algorithm for One-to-N Unsupervised Sequence transduction (ONUS) that learns to map one hard, multi-hop question to many simpler, single-hop sub-question. They answer sub-questions with an off-the-shelf QA model and give the resulting answers to a recomposition model that combines them into a final answer.
+
+You can check this paper for details. 
+<https://arxiv.org/pdf/2002.09758.pdf>
