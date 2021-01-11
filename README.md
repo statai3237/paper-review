@@ -21,3 +21,14 @@ Specifically, they propose an algorithm for One-to-N Unsupervised Sequence trans
 
 You can check this paper for details. 
 <https://arxiv.org/pdf/2002.09758.pdf>
+
+## Ask2Transformers - Zero shot Domain Labelling with Pretrained Transformers
+
+In this paper, they present a system that exploits different pre-trained LMs for assigning domain labels to WordNet synsets without any kind of supervision.
+Furthermore, the system is not restricted to use a particular set of domain labels.
+They exploit the knowledge encoded within different off-the-shelf pre-trained LMs and task formulations to infer the domain label of a particular WordNet definition. The proposed zero-shot system achieves a new state-of-the-art on the English dataset used in the evaluation.
+
+paper :
+<https://arxiv.org/pdf/2101.02661.pdf>
+code :
+<https://github.com/osainz59/Ask2Transformers>
